@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_GitLearnBasics_1684321476953-push-trigger-input-set
+  identifier: Build_GitLearnBasics_1684321476953pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_GitLearnBasics_1684321476953
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
